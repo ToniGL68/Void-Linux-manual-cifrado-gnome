@@ -17,7 +17,7 @@ Instalación manual de Void Linux en disco cifrado con entorno de escritorio gno
 
 ## Cifrado de la partición de sistema vda3
 	cryptsetup luksFormat --type luks1 /dev/vda3
-**Pide dos veces la contraseña para el disco**
+**Pide asignar y confirmar la contraseña **
 
 	cryptsetup luksOpen /dev/vda3 disco
 **Pide contraseña anterior y el dispositivo es mapeado en /dev/mapper/disco**
