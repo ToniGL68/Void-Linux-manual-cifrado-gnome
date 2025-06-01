@@ -43,7 +43,7 @@ mkfs.ext4 /dev/mapper/disco
 ## Montado de particiones
 ```
 mount /dev/mapper/disco /mnt
-mount /dev/vda1 /mn/boot/efi --mkdir
+mount /dev/vda1 /mnt/boot/efi --mkdir
 swapon /dev/vda2
 ```
 ## Instalar sistema base en /mnt
