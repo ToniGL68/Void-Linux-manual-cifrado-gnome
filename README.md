@@ -1,4 +1,4 @@
-# Void-Linux-manual-cifrado-gnome-Void-Linux-gnome
+# Void-Linux-manual-cifrado-gnome
 Instalación manual de Void Linux en disco cifrado con entorno de escritorio gnome (en construcción)
 
 
