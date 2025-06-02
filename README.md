@@ -186,7 +186,7 @@ hostonly=yes
 ```
 grub-install /dev/vda1
 ```
-**Último paso: configurar el sistema
+**Último paso: configurar el sistema**
 ```
 xbps-reconfigure -fa
 ```
@@ -368,6 +368,6 @@ sudo xbps-install -Sy ffmpeg
 ```
 sudo xbps-install -Su firefox libreoffice octoxbps
 ```
-	
-		
-	
+**Referencias consultadas:**
++ [Wiki de Arch Linux](https://wiki.archlinux.org/title/Main_page)
++ [Documentación oficial de Void Linux](https://docs.voidlinux.org/)
