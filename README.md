@@ -7,14 +7,14 @@ lsblk
 ```
 ## Borrado del disco completo (suponemos vda)
 ```
-cryptsetup open --type plain -d /dev/urandom /dev/vda disco
-dd if=/dev/zero of=/dev/mapper/disco bs=1M status=progress
-cryptsetup close disco
+cryptsetup open --type plain --key-file /dev/urandom --sector-size 4096 /dev/vda discoa
+dd if=/dev/zero of=/dev/mapper/discoa bs=1M status=progress
+cryptsetup close discoa
 ```
 
 + Se puede ver contenido de disco
 ```
-od -N 500 /dev/vda3
+od -N 500 /dev/vda
 ```
 ## Particionado
 ```
